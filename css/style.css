@@ -10,8 +10,23 @@ body{
     height: 600px ;
 }
 
+.support{
+    position: relative;
+    right: 40px;
+}
+.headerMenu{
+   
+    position: fixed;
+    top: 58px;
+    float: right;
+    right: 0;
+}
+
+
+
 .btn1{
-    padding: 10px 60px;
+
+    padding: 10px 50px;
 }
 
 .bannerLeft .innerLeft h1 {
@@ -51,6 +66,7 @@ body{
 .crazyTeam{
     background-image: url("/img/team_back.jpg");
     background-repeat: no-repeat;
+    height: 130px;
     /* background-size: 100% 100%; */
     padding: 25px 0px;
     margin: 20px 0px;
@@ -85,6 +101,11 @@ body{
     width: fit-content;
     text-transform: uppercase;
     margin-top: 5px;
+}
+.crazyteamBtn:hover{
+    background-color: #fff;
+    color: #2ab0ef;
+    text-decoration: none;
 }
 
 
