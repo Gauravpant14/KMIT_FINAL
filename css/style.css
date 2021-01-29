@@ -3,6 +3,92 @@ body{
     
 }
 
+.logoMain{
+    position: relative;
+    z-index: 1111;
+}
+
+.topHeader{
+    position: fixed; 
+    top: 0; 
+    display: none;
+    background-color: #fff;
+    height: auto;
+    z-index: 999;
+}
+
+.topHeadLinks{
+    text-align: right;
+    margin-top: 90px;
+    margin-right: -20px;
+
+}
+
+.topHeadLinks li{
+    list-style-type: none;
+    padding: 10px 10px;
+    
+}
+
+
+.topHeadLinks li a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 3px;
+   
+    color: #2b2b2b;
+}
+
+
+.topHeadLinks li .active{
+    color:#2ab0ef;
+}
+.topHeadLinks li a:hover{
+   color: #2ab0ef;
+}
+
+.bottomLinks ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.bottomLinks ul li a{
+    color: #2eb2ef;
+    padding: 4px;
+    border: 2px solid #2eb2ef;
+    border-radius: 50px;
+    margin-left: 8px;
+    cursor: pointer;
+    display: block; 
+    width: 38px;
+    text-align: center;
+    transition: all 0.5s
+}
+
+#hideBtn{
+    float: right;
+    margin-top: 40px;
+}
+
+
+/* slick slider img setting */
+.slickSlider img{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 .bgimg{
     background-image: url('/img/banner_back.jpg');
     background-size: 98% 100%;
@@ -66,9 +152,9 @@ body{
 .crazyTeam{
     background-image: url("/img/team_back.jpg");
     background-repeat: no-repeat;
-    height: 130px;
+    height: 100px;
     /* background-size: 100% 100%; */
-    padding: 25px 0px;
+    /* padding: 25px 0px; */
     margin: 20px 0px;
     background-size: 80% 100%;
     /* padding-bottom: 35px; */
@@ -81,10 +167,11 @@ body{
 }
 
 .cT{
-    margin: 10px 0 ;
+    /* margin: 10px 0 ; */
+    padding: 14px 0px;
 }
 .crazyteamBtnDiv{
-    margin-top: 27px;
+    padding: 21px 19px;
 }
 .crazyteamBtnDiv a{
     /* text-decoration: none; */
@@ -92,7 +179,7 @@ body{
 }
 .crazyteamBtn{
     border: 2px solid #fff;
-    padding: 12px 30px;
+    padding: 10px 24px;
     color: #fff;
     font-weight: 500;
     border-radius: 5px;
@@ -198,7 +285,9 @@ footer{
     margin: 0 auto;
     
 }
-
+.footerLinks ul{
+    padding: 0px;
+}
  .footerLinks ul li {
     padding: 5px 0px;
 }
@@ -208,8 +297,8 @@ footer{
     margin-bottom: 15px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-left: 37px;
-    /* text-align: left; */
+    /* padding-left: 37px; */
+    text-align: left; 
 }
 
 .footerLinks ul li{
@@ -244,4 +333,9 @@ footer{
     font-size: 12px;
     padding: 10px;
     text-decoration: none;
+}
+
+
+#div1 ul{
+float: right;
 }
